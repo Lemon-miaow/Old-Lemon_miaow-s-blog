@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>作为一个中文搜索引擎，百度是如何做到如此恶心</title>
+      <link href="/2020/04/17/zuo-wei-yi-ge-zhong-wen-sou-suo-yin-qing-bai-du-shi-ru-he-zuo-dao-ru-ci-e-xin/"/>
+      <url>/2020/04/17/zuo-wei-yi-ge-zhong-wen-sou-suo-yin-qing-bai-du-shi-ru-he-zuo-dao-ru-ci-e-xin/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> GitHub </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何使用Git Bash将文件Push到仓库</title>
+      <link href="/2020/03/27/ru-he-shi-yong-gitbash-jiang-wen-jian-push-dao-cang-ku/"/>
+      <url>/2020/03/27/ru-he-shi-yong-gitbash-jiang-wen-jian-push-dao-cang-ku/</url>
+      
+        <content type="html"><![CDATA[<p><del>又到了一年一度的水文时间（bushi</del></p><h2 id="如何使用Git-Bash将文件Push到仓库"><a href="#如何使用Git-Bash将文件Push到仓库" class="headerlink" title="如何使用Git Bash将文件Push到仓库"></a>如何使用Git Bash将文件Push到仓库</h2><h2 id="又到了一年一度的水文时间（bushi"><a href="#又到了一年一度的水文时间（bushi" class="headerlink" title="又到了一年一度的水文时间（bushi"></a><del>又到了一年一度的水文时间（bushi</del></h2><ol><li><p>首先你需要注册一个<a href="https://github.com/" target="_blank" rel="noopener">Github</a>  <del>（gayHub</del>  账号</p></li><li><p>登入账号后你的右上角是不是有个小 [ + ] 号  <del>，使劲戳♂它</del>  ，下面会有一个<strong>New repository</strong>，用它创建一个新仓库（如果你已经新建了一个仓库可以不用这两步）。<img src="/medias/img/2-1.png" alt="1"></p></li><li><p>在创建仓库时填写你<strong>仓库的名称|Repository name</strong></p><blockquote><p>*Repository name: 仓库名称<br>*Description(可选): 仓库描述介绍<br>*Public, Private : 仓库权限（公开共享，私有或指定合作者）<br>*Initialize this repository with a README: 添加一个README.md<br>*Gitignore: 不需要进行版本管理的仓库类型，对应生成文件.gitignore<br>*License: 证书类型，对应生成文件LICENSE</p></blockquote><p><img src="/medias/img/2-2.png" alt="2"></p><p>填写完后摸一下Create repository继续。</p></li><li><p>打开你的仓库后有一个URL，复制它。<img src="/medias/img/2-3.png" alt="3"></p></li><li><p>接下来我们必须先把仓库Clone到本地后才能Push，打开本地的<a href="https://git-scm.com/" target="_blank" rel="noopener">Git Bash</a>，cd到你想要Clone的文件夹</p><p><code>cd /example</code></p><p>然后输入</p></li></ol><p>   <code>git clone https://github.com/xxx/xxx.git</code></p><p>   #这是你上面复制的仓库地址#</p><p>   在你当前路径下会生成这个文件夹，里面的.git文件夹千万不要动，这时我们就可以把东西扔进去辣。</p><ol start="6"><li>把东西扔进去后输入</li></ol><p>   <code>git add .</code></p><p>   #这个点代表这个文件夹下的所有文件，这就可以把所有东西添加进来<br>   #文件大可能需要等一会，但是千万不要关闭窗口，不然就废了</p><p>   <code>git commit -m &quot;first commit&quot;</code></p><p>   #”first commit”是提交信息，可以自定义</p><p>   <del>接下来啥都不用管直接输入，</del>有时候还是要管一下的XD</p><p>   <code>git push -u origin master</code></p><p>   #这里的master代表master分支，如果你不知道这是什么你可以不用管他XD</p><p>   中途会提示输入用户名和密码</p><ol start="7"><li><p>如果没报什么奇怪闷台你就已经成功把<del>奇怪的文件</del>你的东西Push上去了XD</p></li><li><p>如果第二次提交文件的话可以直接输入</p></li></ol><p>   <code>git push</code></p><p>   就可以了</p><blockquote><p><del>一些奇奇怪怪的指令</del></p><p>$ git init                                                #把当前目录变成git可以管理的仓库<br>$ git add readme.txt                          #添加一个文件，也可以添加文件夹<br>$ git add -A                                          #添加全部文件<br>$ git commit -m “some commit”     #提交修改<br>$ git status                                          #查看是否还有未提交<br>$ git log                                               #查看最近日志<br>$ git reset –hard HEAD^                  #版本回退一个版本<br>$ git reset –hard HEAD^^                #版本回退两个版本<br>$ git reset –hard HEAD~100           #版本回退多个版本<br>$ git remote add origin +地址        #远程仓库的提交（第一次链接）<br>$ git push -u origin master            #仓库关联<br>$ git push                                         #远程仓库的提交（第二次及之后）</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> GitHub </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vdrias World! | 一个Minecraft服务器</title>
+      <link href="/2020/03/26/vdrias-world-yi-ge-minecraft-fu-wu-qi/"/>
+      <url>/2020/03/26/vdrias-world-yi-ge-minecraft-fu-wu-qi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Vdrias World! 是Mashirl的一个Minecraft服务器<del>，至于是什么时候开的，Mashirl不知道我肯定也不知道嘛（逃</del></p><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>Vdrias World! 是一个以纯生存玩法为主的一个服务器，没有任何MOD，也没有特殊玩法的插件，也没有任何的地皮限制。通过使用<a href="https://littleskin.cn/" target="_blank" rel="noopener">LittleSkin</a>的Yggdrasil API进行验证，正版和盗版玩家都可进入。</p><p>服务器虽然没有任何地皮限制，但服务器内安装了CoreProtect插件，玩家可以随时查询是谁动了自己的箱子和建筑，被熊后可以联系管理员进行恢复。</p><ol><li>正版玩家可以在<a href="https://littleskin.cn/" target="_blank" rel="noopener">LittleSkin</a>上绑定正版账号。</li><li>盗版玩家同样可以在<a href="https://littleskin.cn/" target="_blank" rel="noopener">LittleSkin</a>上注册账号并登录。在注册后添加角色并上传皮肤后<del>（不要皮肤当史蒂夫也可以（啪</del>，在启动器中登录<a href="https://littleskin.cn/" target="_blank" rel="noopener">LittleSkin</a>帐号即可进服务器游玩。</li></ol><h2 id="服务器风光"><a href="#服务器风光" class="headerlink" title="服务器风光"></a>服务器风光</h2><p>下面展示的是主城区域的一些图片和服务器里面玩家建的一些不错的建筑。（如果没有您的建筑，并不是代表您的建筑不够好。）</p><p><img src="/medias/img/1.png" alt="1"></p><p><img src="/medias/img/2.png" alt="2"></p><p><img src="/medias/img/3.png" alt="3"></p><p><img src="/medias/img/4.png" alt="4"></p><p><img src="/medias/img/5.png" alt="5"></p><p><img src="/medias/img/6.png" alt="6"></p><p><img src="/medias/img/7.png" alt="7"></p><p><img src="/medias/img/8.png" alt="8"></p><p><img src="/medias/img/9.png" alt="9"></p><h2 id="服务器信息"><a href="#服务器信息" class="headerlink" title="服务器信息"></a>服务器信息</h2><p>本服务器唯一群: <a href="https://jq.qq.com/?_wv=1027&k=5v66btH" target="_blank" rel="noopener">208791171</a> </p><p>服务器百科（IP和进服方法都在里面了！）：<a href="https://wiki.vdrias.cn/" target="_blank" rel="noopener">点此进入</a></p><h2 id="如何进入我们的服务器呢？"><a href="#如何进入我们的服务器呢？" class="headerlink" title="如何进入我们的服务器呢？"></a>如何进入我们的服务器呢？</h2><p>下面的大部分内容摘抄自<a href="https://wiki.vdrias.cn/" target="_blank" rel="noopener">VdriasWorld!Wiki</a>  及  <a href="https://manual.littleskin.cn/" target="_blank" rel="noopener">LittleSkin用户手册</a>，的<a href="https://manual.littleskin.cn/advanced-usage/yggdrasil.html#在服务端使用" target="_blank" rel="noopener">Yggdrasil - 在客户端使用</a>。</p><p>在客户端中使用 LittleSkin 的 Yggdrasil 需要启动器支持自定义 Yggdrasil 服务器。推荐使用 <a href="https://www.mcbbs.net/thread-142335-1-1.html" target="_blank" rel="noopener">HMCL 3</a>。</p><blockquote><p>请先前往<a href="https://littleskin.cn/" target="_blank" rel="noopener">LittleSkin</a>注册并登入，在注册后添加角色并上传皮肤再继续下面的教程。</p><p>请先前往<a href="https://littleskin.cn/" target="_blank" rel="noopener">LittleSkin</a>注册并登入，在注册后添加角色并上传皮肤再继续下面的教程。</p><p>请先前往<a href="https://littleskin.cn/" target="_blank" rel="noopener">LittleSkin</a>注册并登入，在注册后添加角色并上传皮肤再继续下面的教程。</p></blockquote><hr><ol><li>如果你使用的启动器不支持自定义 Yggdrasil，并且你使用的启动器是使用 Java 编写的，你也可以手动添加 JVM 参数来加载 authlib-injector（就像在服务端使用 authlib-injector 一样），但是本文不介绍这种做法。</li><li>以下以 HMCL 3 为例，演示如何在 Minecraft 客户端中使用 Yggdrasil。</li></ol><hr><ol><li>打开 HMCL 3 </li><li>打开 左上角「新建游戏账户」界面，选择登录方式为「外置登录（authlib-injector）」。 如果这是你第一次打开 HMCL，这个界面将会在启动时弹出。<img src="/medias/img/10.png" alt="10"></li><li>点击「认证服务器」旁的加号「+」，输入 LittleSkin 的 Yggdrasil API 地址，点击「下一步」，等待识别出 LittleSkin 的 Yggdrasil 后点击「完成」。 如果你曾经添加过 LittleSkin 的 Yggdrasil，你也可以在「认证服务器」菜单中直接选择 LittleSkin。<img src="/medias/img/11.png" alt="11">)<img src="/medias/img/12.png" alt="11"></li><li>在添加完「认证服务器」后，在「认证服务器」菜单中选择 LittleSkin，填写你的邮箱和密码。「用户名」即为你在<a href="https://littleskin.cn/" target="_blank" rel="noopener">LittleSkin</a>的账号的邮箱。 如果你只添加了一个认证服务器，那么 HMCL 3 会默认选中那个唯一的认证服务器。如果你有两个角色，请使用您需要登录的那一个角色。<img src="/medias/img/12.png" alt="12"></li><li>设置完成啦！你可以启动游戏并加入服务器了！</li></ol><hr><blockquote><p>注意！注册后请务必加入服务器官方群，联系管理添加白名单！<del>（添加速度还是比较快哒（误</del></p><p><del>（因为最近开小号熊的人有点多所以开了白名单请见谅）</del></p></blockquote><h3 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h3><p>下面是很多玩家都会遇到的问题。</p><h4 id="HMCL启动器下的-启动失败"><a href="#HMCL启动器下的-启动失败" class="headerlink" title="HMCL启动器下的 启动失败"></a>HMCL启动器下的 启动失败</h4><p>这个可能有很多人都遇到过</p><p><img src="/medias/img/13.png" alt="13"></p><p>您可以下载<a href="https://authlib-injector.yushi.moe/~download/" target="_blank" rel="noopener">authlib-injector.jar</a>后</p><p>扔到<code>%appdata%/.hmcl</code></p><p>这样就可以愉快的启动辣！（</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Minecraft </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2020/03/13/hello-world/"/>
+      <url>/2020/03/13/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Hello World </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

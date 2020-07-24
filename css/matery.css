@@ -37,11 +37,14 @@ body {
     background-color: #eaeaea;
     margin: 0;
     color: #34495e;
+    cursor: url('/medias/default.cur'),auto;
+    cursor: url('/medias/text.cur'),text;
+    cursor: url('/medias/pointer.cur'),pointer;
 }
 
 h1 {
     margin: 48px 0 22px -5px;
-    font-size: 2.0rem;
+    font-size: 2.0rem; 
     font-weight: bold;
     line-height: 2.0rem;
 }
